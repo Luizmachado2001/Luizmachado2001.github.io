@@ -1,5 +1,12 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Helvetica;
+}
+
+/* cabeça do site */
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
 }
