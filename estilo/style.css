@@ -34,6 +34,7 @@ main {
 }
 
 .section{
+    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -62,6 +63,11 @@ footer{
 
     .tec{
         padding: 10px;
+    }
+
+    footer h4 {
+        padding-top: 11.5rem;
+        font-size: 14px;
     }
         
 }
