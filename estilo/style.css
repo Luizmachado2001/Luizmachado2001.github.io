@@ -19,6 +19,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 10px;
+    height: 850px;
 }
 
 /* sections */
@@ -29,12 +30,22 @@ main {
 
 .section{
     margin-bottom: 1rem;
+    justify-content: center;
 }
 
 .tec{
     padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #dcdcdc;
 }
 
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+}
 
 /* Mobile */
 
