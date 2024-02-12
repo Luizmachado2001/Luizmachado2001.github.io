@@ -26,12 +26,10 @@ main {
 /* sections */
 .tecnologias{
     display: flex;
-    margin-top: 1rem;
 }
 
 .section{
-    margin-bottom: 1rem;
-    justify-content: center;
+    margin-bottom: 2rem;
 }
 
 .tec{
