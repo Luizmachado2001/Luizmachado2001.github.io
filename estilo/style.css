@@ -1,7 +1,13 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Helvetica;
+    font-family: sans-serif;
+}
+
+body {
+    /* background-color: #A7A4AD; */
+    background-color: #17191D;
+    color: #fff;
 }
 
 /* cabeça do site */
@@ -31,6 +37,7 @@ main {
 
 .title-h2{
     padding: 1rem;
+    
 }
 
 .section{
