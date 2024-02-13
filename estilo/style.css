@@ -192,6 +192,8 @@ footer {
     .container-m{
         display: flex;
         flex-direction: column-reverse;
+        border: 0;
+        width: 100%;
     }
 
 
