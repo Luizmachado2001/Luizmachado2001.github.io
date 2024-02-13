@@ -26,7 +26,6 @@ body {
     padding: 6px;
 }
 
-#header h1 {}
 
 /* Main */
 main {
@@ -54,7 +53,7 @@ main {
 
 .section {
     margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .tec {
