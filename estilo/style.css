@@ -19,6 +19,7 @@ body {
     margin: 0 auto;
     width: 60%;
     background-color: #1A237E;
+    border-radius: 1px 1px 30px 30px;
 }
 
 #header h1 {}
@@ -86,7 +87,7 @@ main {
 
 .container-m {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     align-items: center;
     justify-content: center;
     margin-top: 10px;
@@ -184,7 +185,7 @@ footer {
     .container-m {
         flex-direction: column-reverse;
         border: 0;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .imgcontainer {
@@ -193,5 +194,6 @@ footer {
 
     footer h4 {
         font-size: 14px;
+        margin-top: 1rem;
     }
 }
