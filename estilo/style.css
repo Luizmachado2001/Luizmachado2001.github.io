@@ -39,7 +39,8 @@ main {
 }
 
 .title-h2 {
-    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -120,7 +121,8 @@ footer {
 
     #header {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         height: 75px;
         padding-top: 17px;
         margin-bottom: 1rem;
@@ -186,7 +188,7 @@ footer {
 
     .container-m{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
 
