@@ -196,5 +196,13 @@ footer {
         width: 100%;
     }
 
+    .imgcontainer{
+        display: flex;
+        width: 50%;
+        height: 100px;
+        margin-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
