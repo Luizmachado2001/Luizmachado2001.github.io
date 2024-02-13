@@ -16,9 +16,8 @@ body {
     justify-content: center;
     height: 55px;
     padding-top: 17px;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin: 0 auto;
+    width: 60%;
     background-color: #1A237E;
 }
 
@@ -123,11 +122,11 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+        align-self: center;
+        width: 100%;
         height: 75px;
         padding-top: 17px;
         margin-bottom: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
         background-color: #1A237E;
     }
 
