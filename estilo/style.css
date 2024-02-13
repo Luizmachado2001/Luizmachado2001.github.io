@@ -22,8 +22,7 @@ body {
     background-color: #1A237E;
 }
 
-#header h1 {
-}
+#header h1 {}
 
 /* main */
 main {
@@ -35,21 +34,21 @@ main {
 }
 
 /* sections */
-.tecnologias{
+.tecnologias {
     display: flex;
 }
 
-.title-h2{
+.title-h2 {
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
-.section{
+.section {
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
-.tec{
+.tec {
     height: 140px;
     padding: 10px;
     margin: 10px;
@@ -58,50 +57,109 @@ main {
 }
 
 /* container */
-.container-sobre{
+.container-sobre {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 300px;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
-.container-sobre h2{
-    padding-bottom: 1rem;
+.sobre {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
 }
 
-.container-sobre p{
+.container-sobre p {
     font-size: 18px;
     align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
 }
 
 /* footer */
 
-footer{
+footer {
     display: flex;
     justify-content: center;
 }
 
 /* Mobile */
 
-@media (min-width:300px) and (max-width: 430px){
-    .tecnologias{
+@media (min-width:300px) and (max-width: 430px) {
+    .title-h2 {
+        padding-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    #header {
+        display: flex;
+        justify-content: space-between;
+        height: 75px;
+        padding-top: 17px;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #1A237E;
+    }
+
+    .h2{
+        margin-bottom: 5rem;
+        padding-bottom: 3rem;
+        font-size: 18px;
+    }
+    
+
+    .tecnologias {
         flex-direction: column;
         text-align: center;
         margin-bottom: 3px;
     }
 
-    .tec{
+    .tec {
         padding: 10px;
         padding: 10px;
         margin: 10px;
     }
 
     footer h4 {
-        padding-top: 280px;
+        padding-top: 970px;
         font-size: 14px;
     }
-        
+
+    .section {
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+
+    .sobre {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    /* container */
+    .container-sobre {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .container-sobre .sobre {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        font-size: 20px;
+    }
+    
+
+    .container-sobre p {
+        font-size: 16px;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+    }
+
+
 }
