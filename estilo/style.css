@@ -13,7 +13,7 @@ body {
 /* cabeça do site */
 #header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 55px;
     padding-top: 17px;
     margin-bottom: 1rem;
