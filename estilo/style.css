@@ -57,6 +57,26 @@ main {
     background-color: #dcdcdc;
 }
 
+/* container */
+.container-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-sobre h2{
+    padding-bottom: 1rem;
+}
+
+.container-sobre p{
+    font-size: 18px;
+    align-items: center;
+}
+
 /* footer */
 
 footer{
