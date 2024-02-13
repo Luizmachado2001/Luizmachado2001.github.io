@@ -22,6 +22,10 @@ body {
     border-radius: 1px 1px 30px 30px;
 }
 
+.nav a{
+    padding: 6px;
+}
+
 #header h1 {}
 
 /* Main */
