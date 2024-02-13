@@ -1,0 +1,33 @@
+@media (min-width: 300px) and (max-width: 430px) {
+
+    #header {
+        width: 100%;
+        height: 75px;
+        margin-bottom: 1rem;
+    }
+
+    /* removendo imagem na versão mobile */
+    .imgcontainer{
+        display: none;
+    }
+
+    /* containers */
+    .container-sobre{
+        width: 100%;
+    }
+
+    /* tecnologias */
+    .tecnologias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tec {
+        margin-bottom: 1rem;
+        border-radius: 30px;
+        background-color: #dcdcdc;
+    }
+
+}
