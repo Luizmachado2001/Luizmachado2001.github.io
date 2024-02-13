@@ -37,6 +37,10 @@ main {
     display: flex;
 }
 
+.h2{
+    font-size: 20px;
+}
+
 .title-h2 {
     padding: 1rem;
     margin-bottom: 1rem;
@@ -68,7 +72,6 @@ main {
 
 .sobre {
     width: 100%;
-    padding: 1rem;
     margin: 1rem;
 }
 
