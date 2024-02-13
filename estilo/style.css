@@ -102,6 +102,11 @@ main {
     text-align: center;
 }
 
+.img1{
+    padding-right: 1rem;
+    border-radius: 30px solid red;
+}
+
 
 /* footer */
 
@@ -177,7 +182,6 @@ footer {
         margin-bottom: 1rem;
         font-size: 20px;
     }
-    
 
     .container-sobre p {
         font-size: 16px;
