@@ -14,18 +14,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; /* Adicionado alinhamento vertical */
+    align-self: center;
     height: 55px;
     padding-top: 17px;
     margin: 0 auto;
     width: 60%;
     background-color: #5DADE2;
     border-radius: 1px 1px 30px 30px;
+    gap: 10px;
 }
-
-.nav a{
-    padding: 6px;
-}
-
 
 /* Main */
 main {
