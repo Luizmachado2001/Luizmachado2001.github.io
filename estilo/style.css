@@ -39,11 +39,12 @@ main {
 /* Sections */
 .tecnologias {
     display: flex;
+    gap: 30px;
 }
 
 .title-h2 {
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 6px;
     margin-bottom: 1rem;
 }
 
@@ -59,7 +60,6 @@ main {
 .tec {
     height: 140px;
     padding: 10px;
-    margin: 10px;
     border-radius: 30px;
     background-color: #dcdcdc;
 }
@@ -106,6 +106,7 @@ main {
 
 /* Footer */
 footer {
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
