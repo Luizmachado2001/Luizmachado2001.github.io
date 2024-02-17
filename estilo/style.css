@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    color: #fff;
+}
+
+body{
+    background-color: #323329;
+}
+
+#header{
+    display: flex;
+    width: 100%;
+    background-color: #757850;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-top: 10px;
+    margin-bottom: 1rem;
+}
+
+.nav{
+    margin-right: 20px;
+}
+
+.name{
+    margin-left: 10px;
+    color: #fff;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.title-h2{
+    margin-bottom: 1rem;
+}
+
+.tec {
+    border: 1px solid #dcdcdc;
+    border-radius: 30px;
+    background-color: #dcdcdc;
+    height: 140px;
+    padding: 10px;
+}
+
+
+.tecnologias {
+    display: flex;
+    gap: 1.5rem;
+}

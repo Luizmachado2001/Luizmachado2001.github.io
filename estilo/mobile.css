@@ -1,0 +1,13 @@
+@media screen and (max-width: 440px) {
+    .tecnologias{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 30px;
+        justify-content: center;
+    }
+    .tec{
+        width: 250px;
+        text-align: center;
+    }
+}
