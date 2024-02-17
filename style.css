@@ -2,11 +2,27 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
+}
+
+body{
     background-color: #2C3E50;
 }
 
 #header{
     display: flex;
     width: 100%;
-    background-color: blueviolet;
+    background-color: #3498DB;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-top: 10px;
+}
+
+.nav{
+    margin-right: 20px;
+}
+
+.name{
+    margin-left: 10px;
+    color: #fff;
 }
