@@ -2,12 +2,17 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
-    background-color: #0A2463;
-    box-shadow: none;
+    background-color: #591C21;
     color: #fff;
+    box-sizing: border-box;
 }
 
+body{
+    display: flex;
+}
 
-/* Cabeçalho do site */
-#header {
+header {
+    width: 100%;
+    display: flex;
+    background-color: aqua;
 }
