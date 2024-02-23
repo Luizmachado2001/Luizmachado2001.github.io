@@ -1,18 +1,24 @@
-*{
+/* Importação da fonte Raleway do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Reset de estilos globais para remover padding e margin padrão */
+* {
     padding: 0;
     margin: 0;
-    font-family: Helvetica;
-    color: #fff;
+    font-family: "Raleway"; /* Define a fonte padrão para todo o documento */
+    color: #fff; /* Define a cor do texto para branco */
 }
 
-body{
-    background-color: #192A56;
+/* Estilos para o corpo da página */
+body {
+    background-color: #192A56; /* Define a cor de fundo para azul escuro */
 }
 
-#header{
+/* Estilos para o cabeçalho */
+#header {
     display: flex;
     width: 100%;
-    background-color: #55E6C1;
+    background-color: #55E6C1; /* Define a cor de fundo para verde menta */
     justify-content: space-between;
     align-items: center;
     height: 80px;
@@ -20,15 +26,23 @@ body{
     margin-bottom: 1rem;
 }
 
-.nav{
+/* Estilos para a navegação */
+.nav {
     margin-right: 20px;
 }
 
-.name{
-    margin-left: 10px;
-    color: #fff;
+/* Estilos para o nome no cabeçalho */
+.name {
+    padding: 20px;
+    color: #fff; /* Define a cor do texto para branco */
 }
 
+/* Estilos para a seção principal */
+main {
+    height: 800px; /* Define a altura da seção principal */
+}
+
+/* Estilos para as seções */
 .section {
     display: flex;
     flex-direction: column;
@@ -37,10 +51,12 @@ body{
     align-items: center;
 }
 
-.title-h2{
+/* Estilos para os títulos das seções */
+.title-h2 {
     margin-bottom: 1rem;
 }
 
+/* Estilos para as tecnologias */
 .tec {
     border: 1px solid #dcdcdc;
     border-radius: 30px;
@@ -49,8 +65,36 @@ body{
     padding: 10px;
 }
 
-
+/* Estilos para o contêiner das tecnologias */
 .tecnologias {
     display: flex;
     gap: 1.5rem;
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+}
+
+/* container */
+.container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto 25px;
+    width: 50%;
+}
+
+.container h1{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.container p {
+    padding: 10px;
+    text-justify: justify;
+    align-items: center;
+    line-height: 1.5;
+    word-break: break-all;
 }
