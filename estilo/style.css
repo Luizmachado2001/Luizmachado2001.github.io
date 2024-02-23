@@ -6,13 +6,13 @@
 }
 
 body{
-    background-color: #323329;
+    background-color: #192A56;
 }
 
 #header{
     display: flex;
     width: 100%;
-    background-color: #757850;
+    background-color: #55E6C1;
     justify-content: space-between;
     align-items: center;
     height: 80px;
