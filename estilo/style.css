@@ -40,30 +40,33 @@ body{
 
 section{
     display: flex;
-    padding: 1rem;
+    padding: 5px;
     width: 67%;
     margin: auto;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .container{
     display: flex;
     padding: 30px;
-    flex-direction: column;
     align-self: center;
-    flex-wrap: wrap;
 }
 
 .container h4{
     text-align: start;
+    padding: 10px;
+    align-self: start;
 }
 
 
 .container-filho {
-    margin-bottom: 1rem;
+    align-items: start;
+    align-content: center;
+    align-self: center;
 }
 
 .Programador{
+    text-align: start;
     font-size: 62px;
     color: #445964;
 }

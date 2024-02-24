@@ -2,15 +2,14 @@
     header{
         flex-direction: column;
         padding: 30px;
+        height: 25px;
+        align-items: center;
     }
-    .nav{
+    .nav {
+        margin-top: 1rem;
         flex-direction: column;
     }
     .img {
         width: 300px;
-    }
-    section {
-        margin: 30px;
-        flex-direction: column;
     }
 }
