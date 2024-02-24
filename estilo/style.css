@@ -40,7 +40,6 @@ body{
 
 section{
     display: flex;
-    padding: 5px;
     width: 67%; 
     margin: auto;
     justify-content: space-around;
