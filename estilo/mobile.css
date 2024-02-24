@@ -1,17 +1,16 @@
 @media screen and (max-width: 440px) {
-    .tecnologias{
+    header{
         flex-direction: column;
-        width: 100%;
-        align-items: center;
-        gap: 30px;
-        justify-content: center;
+        padding: 30px;
     }
-    .tec{
-        width: 250px;
-        text-align: center;
+    .nav{
+        flex-direction: column;
     }
-
-    footer {
-        margin-top: 14rem;
+    .img {
+        width: 300px;
+    }
+    section {
+        margin: 30px;
+        flex-direction: column;
     }
 }
