@@ -1,100 +1,37 @@
-/* Importação da fonte Raleway do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/* Reset de estilos globais para remover padding e margin padrão */
 * {
-    padding: 0;
     margin: 0;
-    font-family: "Raleway"; /* Define a fonte padrão para todo o documento */
-    color: #fff; /* Define a cor do texto para branco */
+    padding: 0;
+    font-family: 'Inter';
 }
 
-/* Estilos para o corpo da página */
-body {
-    background-color: #192A56; /* Define a cor de fundo para azul escuro */
+body{
+    background-color: #E5E5E5;
 }
 
-/* Estilos para o cabeçalho */
-#header {
+#header{
     display: flex;
-    width: 100%;
-    background-color: #55E6C1; /* Define a cor de fundo para verde menta */
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    padding-top: 10px;
-    margin-bottom: 1rem;
+    justify-content: space-around;
+    height: 70px;
 }
 
-/* Estilos para a navegação */
-.nav {
-    margin-right: 20px;
+.name{
+    font-size: 36px;
 }
 
-/* Estilos para o nome no cabeçalho */
-.name {
+.nav{
+    display: flex;
+    gap: 10px;
     padding: 20px;
-    color: #fff; /* Define a cor do texto para branco */
 }
 
-/* Estilos para a seção principal */
-main {
-    height: 800px; /* Define a altura da seção principal */
+.nav a{
+    font-size: medium;
+    text-decoration: none;
+    color: #445964;
 }
 
-/* Estilos para as seções */
-.section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px 20px;
-    align-items: center;
-}
-
-/* Estilos para os títulos das seções */
-.title-h2 {
-    margin-bottom: 1rem;
-}
-
-/* Estilos para as tecnologias */
-.tec {
-    border: 1px solid #dcdcdc;
-    border-radius: 30px;
-    background-color: #dcdcdc;
-    height: 140px;
-    padding: 10px;
-}
-
-/* Estilos para o contêiner das tecnologias */
-.tecnologias {
-    display: flex;
-    gap: 1.5rem;
-}
-
-/* Estilos para o rodapé */
-footer {
-    text-align: center; /* Centraliza o texto do rodapé */
-}
-
-/* container */
-.container  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto 25px;
-    width: 50%;
-}
-
-.container h1{
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-}
-
-.container p {
-    padding: 10px;
-    text-justify: justify;
-    align-items: center;
-    line-height: 1.5;
-    word-break: break-all;
+.name{
+    color: #4F636E;
 }
