@@ -51,7 +51,13 @@ section{
     padding: 30px;
     flex-direction: column;
     align-self: center;
+    flex-wrap: wrap;
 }
+
+.container h4{
+    text-align: start;
+}
+
 
 .container-filho {
     margin-bottom: 1rem;
