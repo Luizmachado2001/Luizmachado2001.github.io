@@ -39,19 +39,22 @@ body{
 }
 
 section{
-    width: 64%;
-    margin: 0 auto;
-    border: 1px solid red;
     display: flex;
     padding: 1rem;
+    width: 67%;
+    margin: auto;
     justify-content: center;
 }
 
 .container{
     display: flex;
+    padding: 30px;
     flex-direction: column;
-    border: 1px solid yellow;
     align-self: center;
+}
+
+.container-filho {
+    margin-bottom: 1rem;
 }
 
 .Programador{
